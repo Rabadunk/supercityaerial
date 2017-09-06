@@ -434,6 +434,12 @@ footer span{
 		
 	}
 
+	#button{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
 	#section-two{
 		height: 620px;
 	}
