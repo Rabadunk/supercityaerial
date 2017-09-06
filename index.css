@@ -295,7 +295,7 @@ button:hover span{
 	background-color: snow;
 }
 
-#section-four h1, span{
+#section-four h2, span{
 	font-weight: 600;
 	color: #4B88A2;
 }
@@ -466,13 +466,17 @@ footer span{
 	}
 
 	#section-four{
-		height: 550px;
+		height: 600px;
 	}
 
 	#four{
 		position: relative;
 		bottom: 145px;
 		padding-top: 30%
+	}
+
+	#section-four h2{
+		padding-top: 5%;
 	}
 
 	footer{
