@@ -1,0 +1,485 @@
+*{
+	margin:0px;
+	padding: 0px;
+	border: 0px; 
+}
+
+body{
+	background: #;
+	color: #3F403F;
+	font-family: Tahoma;
+	margin: 0px;
+}
+
+@font-face{
+	font-family: owt;
+    src: url(fonts/modern/Modern.ttf);
+}
+
+@font-face{
+	font-family: lobster;
+    src: url(fonts/lobster/Lobster.otf);
+}
+
+@font-face{
+	font-family: akashi;
+    src: url(fonts/akashi/Akashi.ttf);
+}
+
+h1{
+	font-size: 450%;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 2%;
+
+
+}
+
+h2{
+	font-size: 300%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+
+}
+
+h3{
+	font-size: 175%;
+	font-weight: 400;
+	text-align: center;
+	line-height: 155%;
+}
+
+p{
+	font-size: 125%;
+	line-height: 150%;
+	padding: 2%;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+button a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Header */
+
+header{
+	background-color: #3F403F;
+	width: 100%;
+	height: 100px;
+	color: #CED0CE;
+	border-bottom: 5px solid #4B88A2;
+}
+
+
+#header-inner{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#header-logo{
+	float: left;
+	background: url(images/logo.png) no-repeat center;
+	background-size: cover;
+	width: 96px;
+	height: 80px;
+	margin: 10px;
+}
+
+nav{
+	float: right;
+	padding: 35px 20px 0px 0px;
+}
+
+#menu-icon{
+	display: hidden;
+	width: 50px;
+	height: 50px;
+	background: url(images/menu.png) no-repeat center;
+	background-size: cover;
+}
+
+a:hover #menu-icon{
+	border-radius: 10%;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	font-size: 150%;
+	display: inline-block;
+	padding-left: 30px;
+}
+
+nav ul li a{
+	color: #CED0CE;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #4B88A2;
+}
+
+.current{
+	color: #4B88A2;
+	text-decoration: underline;
+}
+
+/*End Header */
+/*Start Section One*/
+
+#section-one{
+	background: url(images/roofs.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 650px;
+}
+
+#section-one h1{
+	padding-top: 10%;
+	font-family: akashi;
+	color: #CED0CE; 
+}
+
+#section-one span{
+	color: #4B88A2;
+}
+
+#section-one h3{
+	color: #E6E8E6;
+	padding: 10px;
+}
+
+#button{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+button{
+	font-family: owt;
+	text-align: center;
+	height: 50px;
+	width: 150px;
+	background-color: #3F403F; 
+	color: #4B88A2;
+	font-size: 120%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button span{
+	position: absolute;
+	visibility: hidden;
+}
+
+button:hover{
+	cursor: pointer;
+	width: 200px;
+	background-color: #CED0CE;
+	color: #4B88A2;
+	font-weight: 700; 
+}
+
+button:hover span{
+	position: relative;
+	visibility: visible; 
+	padding-left: 10px;
+}
+
+/*End Section One */
+
+/*Start Section Two */
+#section-two{
+
+	background: url(images/servicesd.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 700px;
+}
+
+#Why{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	color: #E6E8E6;
+
+}
+
+#why-container{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 7%;
+	width: 75%;
+}
+
+#why-container h2{
+	color: #4B88A2;
+	padding: 2%;
+}
+
+#why-container h3{
+	font-weight: 600;
+	font-style: italic;
+	font-family: aerial;
+	padding: 2%;
+	
+}
+
+#why-container p{
+	color: #CED0CE;
+	text-align: justify;
+}
+
+/*End Section Two */
+
+/*Start Section Three */
+#section-three{
+
+	background: url(images/services.jpg) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 780px;
+}
+
+#Services{
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(230,232,230,0.7);
+	color: #E6E8E6;
+
+}
+
+#services-container{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 4%;
+	width: 75%;
+}
+
+#services-container h2{
+	color: #4B88A2;
+	padding: 2%;
+}
+
+#services-container h3{
+	color: #3f403f;
+	font-weight: 600;
+	font-style: italic;
+	font-family: aerial;
+	padding: 2%;
+	
+}
+
+#services-container p{
+	color: black;
+	text-align: justify;
+}
+
+/*End Section Three */
+
+/*Start Section Four */
+
+#section-four{
+	height: 500px;
+	background-color: snow;
+}
+
+#section-four h1, span{
+	font-weight: 600;
+	color: #4B88A2;
+}
+
+#section-four h3{
+	padding-top: 2%;
+}
+
+#section-four a{
+	font-weight: 600;
+	text-decoration: none;
+	color: #4B88A2;
+}
+
+#section-four a:hover{
+	text-decoration: underline;
+	color: #3f403f;
+
+}
+
+
+/*End Section Four */
+
+
+/*start footer */
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #3f403f;
+	color: #e6e8e6;
+	font-size: 70%;
+}
+footer p{
+	padding: 0;
+}
+
+#footer-inner{
+	padding-top: 1%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+footer ul li{
+	width: 30%;
+	display: inline-block;
+
+}
+
+footer span{
+	font-family: owt;
+	font-size: 180%;
+}
+
+/*end footer */
+
+/*media queries*/
+
+@media screen and (max-width: 1080px){
+
+	#section-two{
+		height: 970px;
+
+	}
+
+	#section-three{
+		height: 1100px;
+	}
+
+	}
+
+@media screen and (max-width: 780px){
+
+	h1{
+		font-size: 400%;
+
+	}
+
+	h2{
+		font-size: 250%;
+
+	}
+
+	h3{
+		font-size: 135%;
+	}
+
+	p{
+		font-size: 100%;
+
+	}
+
+	header{
+		position: absolute;
+	}
+
+	#header-logo{
+		width: 80px;
+		height: 66.67px;
+		margin: 15px 0 0 25px;
+
+	}
+
+	#menu-icon{
+		display: inline-block;
+		float: right;
+	}
+
+	#menu-icon:hover{
+		background: url(images/menug.png) no-repeat center;
+		background-size: cover;
+	}
+
+	nav ul, nav:active ul{
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background-color: snow;
+		right: 20px;
+		top: 60px;
+		border-radius: 8px 0px 8px 8px;
+		width: 50%;
+	}
+
+	nav:hover ul{
+		display: block;
+	}
+
+	#section-one{
+		height: 600px;
+	}
+
+	#section-one h1{
+		padding-top: 180px;
+		
+	}
+
+	#section-two{
+		height: 620px;
+	}
+
+
+	#Why{
+		bottom: 155px;
+		position: relative;
+		width: 100%;
+		background-color: rgba(0,0,0,0.7);
+	}
+
+	
+	#section-three{
+		height: 700px;
+	}
+
+	#Services{
+		background-color: rgba(230,232,230,0.8);
+		bottom: 154px;
+		position: relative;
+		width: 100%;
+	}
+
+	#section-four{
+		height: 550px;
+	}
+
+	#four{
+		position: relative;
+		bottom: 145px;
+		padding-top: 30%
+	}
+
+	footer{
+		height: 120px;
+	}
+
+
+	footer ul li{
+		text-align: center;
+		margin: 0 auto;
+		padding: 10px;
+		width: 70%;
+		display: block;
+		font-size: 100%;
+	}
+
+}
