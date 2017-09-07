@@ -443,6 +443,7 @@ footer span{
 
 	#section-two{
 		height: 620px;
+		background-image: none;
 	}
 
 
@@ -455,6 +456,7 @@ footer span{
 	
 	#section-three{
 		height: 700px;
+		background-image: none;
 	}
 
 	#Services{
