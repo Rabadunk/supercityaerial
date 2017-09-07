@@ -13,17 +13,17 @@ body{
 
 @font-face{
 	font-family: owt;
-    src: url(../fonts/modern/modern.ttf);
+    src: url(../fonts/modern/Modern.ttf);
 }
 
 @font-face{
 	font-family: lobster;
-    src: url(../fonts/lobster/lobster.otf);
+    src: url(../fonts/lobster/Lobster.otf);
 }
 
 @font-face{
 	font-family: akashi;
-    src: url(../fonts/akashi/akashi.ttf);
+    src: url(../fonts/akashi/Akashi.ttf);
 }
 
 h1{
