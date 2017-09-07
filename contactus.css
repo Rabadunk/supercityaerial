@@ -254,7 +254,7 @@ textarea{
 
 .submit input:hover{
 	cursor: pointer;
-	width: 200px;
+	width: 35%;
 	background-color: #3F403F; 
 	color: #4B88A2;
 
@@ -386,10 +386,6 @@ footer span{
 		width: 100%;
 	}
 
-
-	input{
-		width: 50%;
-	}
 
 	footer{
 		height: 120px;
